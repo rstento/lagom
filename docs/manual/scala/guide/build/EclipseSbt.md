@@ -1,6 +1,7 @@
 # Importing an sbt project into Eclipse
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 If you worked through the command line example for [[sbt|IntroGetStarted]], you have an sbt build. The sbt tool provides an [sbt-eclipse](https://github.com/typesafehub/sbteclipse) plugin that generates Eclipse project artifacts, which you can then import into Eclipse.
 
 Follow these steps to integrate your project with Eclipse:
@@ -32,6 +33,8 @@ Follow these steps to integrate your project with Eclipse:
     ```
     > eclipse
 =======
+=======
+>>>>>>> 714a93e638c2790c603dc880e9c6e0122c7ccbe7
 If you used the Giter8 template to create a build as described in [[Creating and running Hello World with sbt|IntroGetStarted]], you will have an sbt project. To make it possible to import the project into Eclipse, sbt provides an [sbt-eclipse](https://github.com/typesafehub/sbteclipse) plugin that generates Eclipse project artifacts for each of the subprojects.
 
 Follow these steps to integrate your project with Eclipse:
@@ -45,7 +48,10 @@ Follow these steps to integrate your project with Eclipse:
     The sbt plugin creates `.project` and `.classpath` files for the subprojects. The last few lines of output confirm success:
     
     ```
+<<<<<<< HEAD
 >>>>>>> a1474a71477d58cf6892b18c9947faadb5d81b21
+=======
+>>>>>>> 714a93e638c2790c603dc880e9c6e0122c7ccbe7
     ...
     [info] Successfully created Eclipse project files for project(s):
     [info] hello-impl
@@ -55,10 +61,14 @@ Follow these steps to integrate your project with Eclipse:
     [info] lagom-internal-meta-project-service-locator
     [info] lagom-internal-meta-project-cassandra
 <<<<<<< HEAD
+<<<<<<< HEAD
     >
 =======
     
 >>>>>>> a1474a71477d58cf6892b18c9947faadb5d81b21
+=======
+    
+>>>>>>> 714a93e638c2790c603dc880e9c6e0122c7ccbe7
     ```
 
 1. Start Eclipse and switch to the Workspace you want to use for your Lagom project.
@@ -70,6 +80,7 @@ Follow these steps to integrate your project with Eclipse:
    The **Import Projects** page opens.
    
 <<<<<<< HEAD
+<<<<<<< HEAD
 1. Click **Browse**, select the top-level project folder, and click **OK**.
     The sub-projects display in the dialog. For example:
     [[EclBrowseToSbt.png]]
@@ -77,6 +88,8 @@ Follow these steps to integrate your project with Eclipse:
 
 Your project should be imported and ready to work with.
 =======
+=======
+>>>>>>> 714a93e638c2790c603dc880e9c6e0122c7ccbe7
 1. Click **Browse**, select the top-level sbt project folder, and click **OK**.
     The sub-projects display in the dialog. For example:
     [[EclBrowseSbtScala.png]]
@@ -109,4 +122,7 @@ Your project should be imported and ready to work with.
     The request returns the message `Hello, World!`.
     
     
+<<<<<<< HEAD
 >>>>>>> a1474a71477d58cf6892b18c9947faadb5d81b21
+=======
+>>>>>>> 714a93e638c2790c603dc880e9c6e0122c7ccbe7

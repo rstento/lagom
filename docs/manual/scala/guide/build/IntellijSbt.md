@@ -1,8 +1,12 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Importing an sbt build into IntelliJ
 =======
 # Importing an sbt project into IntelliJ
 >>>>>>> a1474a71477d58cf6892b18c9947faadb5d81b21
+=======
+# Importing an sbt project into IntelliJ
+>>>>>>> 714a93e638c2790c603dc880e9c6e0122c7ccbe7
 
 Before importing, configure IntelliJ IDEA to use the most recent Scala plugin, which includes sbt support (Use this plugin regardless of whether you are using the Java or the Scala API).
 
@@ -12,12 +16,17 @@ The following sections provide detailed steps for configuring IDEA and importing
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <!-- [Verify or add the Scala plugin](#add-the-scala-plugin)
 [Import an sbt project](#import-an-sbt-project) -->
 =======
 * [Add the Scala plugin](#Add-the-Scala-plugin)
 * [Import an sbt project](#Import-an-sbt-project)
 >>>>>>> a1474a71477d58cf6892b18c9947faadb5d81b21
+=======
+* [Add the Scala plugin](#Add-the-Scala-plugin)
+* [Import an sbt project](#Import-an-sbt-project)
+>>>>>>> 714a93e638c2790c603dc880e9c6e0122c7ccbe7
 
 
 ## Add the Scala plugin
@@ -68,14 +77,20 @@ After you have an sbt build -- one you created yourself or from a template -- fo
         A **Run** tab opens and you should see messages from the build, with the services starting up at the end:
         [[IDEAsbtRunning.png]]
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 714a93e638c2790c603dc880e9c6e0122c7ccbe7
   1. Verify that the services are indeed up and running by invoking the `hello` service endpoint from any HTTP client, such as a browser: 
       
   ```
   http://localhost:9000/api/hello/World
   ```
       The request returns the message `Hello, World!`.
+<<<<<<< HEAD
 >>>>>>> a1474a71477d58cf6892b18c9947faadb5d81b21
+=======
+>>>>>>> 714a93e638c2790c603dc880e9c6e0122c7ccbe7
         
 
          

@@ -48,7 +48,10 @@ To integrate an existing Maven Java project into IDEA, follow these steps:
     The console displays the following when Lagom is running:
     [[IDEASuccessMavenRun.png]]
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 714a93e638c2790c603dc880e9c6e0122c7ccbe7
     
 1. Verify that the services are indeed up and running by invoking the `hello` service endpoint from any HTTP client, such as a browser: 
     
@@ -56,7 +59,10 @@ To integrate an existing Maven Java project into IDEA, follow these steps:
     http://localhost:9000/api/hello/World
     ```
     The request returns the message `Hello, World!`.
+<<<<<<< HEAD
 >>>>>>> a1474a71477d58cf6892b18c9947faadb5d81b21
+=======
+>>>>>>> 714a93e638c2790c603dc880e9c6e0122c7ccbe7
 
 
 

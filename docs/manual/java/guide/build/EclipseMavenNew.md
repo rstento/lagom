@@ -3,12 +3,17 @@
 The Lagom Maven archetype allows you to quickly create a project for development. Follow these steps to:
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <!--  [Check Prerequisites](#check-prerequisites)
  [Create your project](#create-an-eclipse-project) -->
 =======
 * [Check Prerequisites](#Check-prerequisites)
 * [Create your project](#Create-an-Eclipse-project)
 >>>>>>> a1474a71477d58cf6892b18c9947faadb5d81b21
+=======
+* [Check Prerequisites](#Check-prerequisites)
+* [Create your project](#Create-an-Eclipse-project)
+>>>>>>> 714a93e638c2790c603dc880e9c6e0122c7ccbe7
 
 ## Check prerequisites
 
@@ -33,10 +38,14 @@ In Eclipse, follow these steps to create a project using the Lagom Maven archety
     * **Archetype Group Id:** com.lightbend.lagom
     * **Archetype Artifact Id:** maven-archetype-lagom-java
 <<<<<<< HEAD
+<<<<<<< HEAD
     * **Version:** The Lagom version number, such as 1.3.0.
 =======
     * **Version:** The Lagom version number. Be sure to use the [current stable release](http://www.lagomframework.com/documentation/). 
 >>>>>>> a1474a71477d58cf6892b18c9947faadb5d81b21
+=======
+    * **Version:** The Lagom version number. Be sure to use the [current stable release](http://www.lagomframework.com/documentation/). 
+>>>>>>> 714a93e638c2790c603dc880e9c6e0122c7ccbe7
     * **Repository URL:** Leave blank
     [[EclAddArchetype.png]]
     
@@ -52,9 +61,12 @@ In Eclipse, follow these steps to create a project using the Lagom Maven archety
 1. Click **Finish** and the projects created by the archetype display in the **Package Explorer**. 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 > **Note**  You can ignore warning decorations on project folders.
     
 =======
+=======
+>>>>>>> 714a93e638c2790c603dc880e9c6e0122c7ccbe7
 1. Run the project:
     1. Right-click the parent project folder.
     Eclipse puts all of the Maven project folders at the same level, so be sure to select the correct one. For example, if you used `my-first-system` as the Maven artifact ID, right-click `my-first-system`.
@@ -69,5 +81,8 @@ The console should report that the services started. Verify that the services ar
 http://localhost:9000/api/hello/World
 ```
 The request returns the message `Hello, World!`.
+<<<<<<< HEAD
 >>>>>>> a1474a71477d58cf6892b18c9947faadb5d81b21
+=======
+>>>>>>> 714a93e638c2790c603dc880e9c6e0122c7ccbe7
   
