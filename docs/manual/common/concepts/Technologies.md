@@ -20,6 +20,11 @@ Lagom services that persist data are encouraged, but not required, to use an eve
 
 ## Java and Scala
 
+<<<<<<< HEAD:docs/manual/common/concepts/Technologies.md
+=======
+The first version of Lagom provides a Java API for writing microservices.  Before long, a subsequent version will add a Scala API.
+
+>>>>>>> ce5266381d174aa8198903a934ae9274902878e6:docs/manual/concepts/Technologies.md
 Lagom's Java APIs target Java 8. They assume familiarity with Java 8 features such as [lambdas](http://docs.oracle.com/javase/tutorial/java/javaOO/lambdaexpressions.html), [default methods](http://docs.oracle.com/javase/tutorial/java/IandI/defaultmethods.html), and [`Optional`](http://docs.oracle.com/javase/8/docs/api/java/util/Optional.html).
 
 Most of Lagom is implemented in Scala.  (This is an implementation detail that doesn't normally concern Java programmers using Lagom APIs.)
