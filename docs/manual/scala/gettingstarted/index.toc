@@ -1,6 +1,11 @@
 Installation:Introduction and prerequisites
 IntroGetStarted:Creating and running Hello World
+<<<<<<< HEAD
 UnderstandHelloScala:Understanding Hello World;next=EclipseSbt,IntellijSbt
 IntellijSbt:Integrating sbt builds with IntelliJ;next=LagomExamples
 EclipseScala:Integrating sbt builds with Eclipse;next=LagomExamples
 LagomExamples:Learning more from Lagom examples
+=======
+UnderstandHelloScala:Understanding Hello World;next=EclipseScala,IntellijSbt
+LagomExamples:Learning more from Lagom examples
+>>>>>>> a1474a71477d58cf6892b18c9947faadb5d81b21
