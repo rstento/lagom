@@ -17,7 +17,11 @@ Generally, across your codebase, you will need to do the following:
 
 ## Lagom Service API changes
 
+<<<<<<< HEAD
 The primary change necessary for the Lagom Service API is to declare Play JSON formats for all of your request and response messages. These formats should replace any Jackson annotations on your message classes. These formats are typically best declared as an implicit parameter on your message classes' companion objects, using the Play JSON macros as a convenience, for example:
+=======
+The primary change necessary for the Lagom Service API is to declare Play JSON formats for all of your request and response messages. These formats should replace any Jackson annotations on your message classes. These formats are typically best declared as an implicit parameter on your message classes companion objects, using the Play JSON macros as a convenience, for example:
+>>>>>>> Finished migration guides (#503)
 
 ```scala
 import play.api.libs.json._
@@ -29,7 +33,11 @@ object Post {
 }
 ```
 
+<<<<<<< HEAD
 For more details, see [[the message serializer documentation|ServiceDescriptors#Message-serialization]].
+=======
+For more details, see [[the message serializer documentation|ServiceDescriptors#Message-serialization]] for more information.
+>>>>>>> Finished migration guides (#503)
 
 If using custom path parameter serializers, these will need to be passed via implicit parameters, rather than being registered with the service descriptor explicitly.
 
@@ -50,10 +58,18 @@ Furthermore, there is no need for `HeaderServiceCall` in Lagom, since the Scala 
 
 ## Persistence changes
 
+<<<<<<< HEAD
 Persistent entities in Lagom express their command, event and state types using abstract types, rather than type parameters on the `PersistentEntity` class. Lagom's persistent entity Scala behavior builders also make use of partial functions and other Scala features. The full documentation on Scala's persistent entities is [[here|PersistentEntity]].
+=======
+Persistent entities in Lagom express their command, event and state types using abstract types, rather than type parameters, on the `PersistentEntity` class. Lagom's persistent entity Scala behaviour builders also make use of partial functions and other Scala features. The full documentation on Scala's persistent entities is [[here|PersistentEntity]].
+>>>>>>> Finished migration guides (#503)
 
 Like the message serializers for services, serializers for messages sent over Akka remoting, and for the persistent entity events and state, need to be defined explicitly, by default this can be done using Play JSON. Since serializers are supplied explicitly, there is no need for a `Jsonable` interface in the Scala API.  For more details, see the [[serialization documentation|Serialization]].
 
 ## Application wiring changes
 
+<<<<<<< HEAD
 The Lagom Scala API is designed to be used with compile time dependency injection, not Guice. In general, this means removing all JSR-330 annotations from components, such as `@Inject` and `@Singleton`, and creating an application cake to replace the Guice `Module` that the Java API needs defined. For documentation about how to wire together a Lagom Scala application, see [[Wiring together a Lagom application|ServiceImplementation#Wiring-together-a-Lagom-application]].
+=======
+The Lagom Scala API is designed to be used with compile time dependency injection, not Guice. In general, this means removing all JSR-330 annotations from components, such as `@Inject` and `@Singleton`, and creating an application cake to replace the Guice `Module` that the Java API needs defined. For documentation about how to wire together a Lagom Scala application, see [[Wiring together a Lagom application|ServiceImplementation#Wiring-together-a-Lagom-application]].
+>>>>>>> Finished migration guides (#503)

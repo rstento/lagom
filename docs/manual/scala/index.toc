@@ -3,4 +3,8 @@ welcome:Welcome to Lagom
 gettingstarted:Getting started with Lagom
 concepts:Lagom core concepts
 guide:Lagom reference guide
+<<<<<<< HEAD
+=======
+appendix:Appendix
+>>>>>>> Finished migration guides (#503)
 releases:Lagom releases
