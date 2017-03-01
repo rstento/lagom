@@ -1,4 +1,3 @@
-LagomDesignPhilosophy:Lagom design philosophy
 CoreConcepts:Lagom core concepts
 LagomDesignPhilosophy:Lagom design philosophy
 Microservices:Microservices in Lagom

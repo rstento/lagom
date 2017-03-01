@@ -2,11 +2,6 @@
 
 If you have a Maven project created from an archetype (as described in [[Creating and running Hello World with Maven|GettingStartedMaven]]) or one you created on your own, import it into Eclipse as follows:
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 714a93e638c2790c603dc880e9c6e0122c7ccbe7
 * [Check Prerequisites](#Check-prerequisites)
 * [Import the project](#Import-the-project)
 
@@ -19,10 +14,6 @@ Before attempting to create a Lagom Maven project in Eclipse, ensure that Eclips
 
 # Import the project
 
-<<<<<<< HEAD
->>>>>>> a1474a71477d58cf6892b18c9947faadb5d81b21
-=======
->>>>>>> 714a93e638c2790c603dc880e9c6e0122c7ccbe7
 1. From the **File** menu, select **Import**.
    The **Select** screen opens. 
 1. Expand **Maven** and select **Existing Maven Projects**.
@@ -31,15 +22,6 @@ Before attempting to create a Lagom Maven project in Eclipse, ensure that Eclips
 1. For **Root Directory**, click **Browse** and select the top-level project folder.
     [[EclBrowseMvnImp.png]]  
 1. Verify that the **Projects** list includes all subprojects and click **Finish**.
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-> **Note**  You can ignore warning decorations on project folders.
-
-You should be all set to build and run your project.
-=======
-=======
->>>>>>> 714a93e638c2790c603dc880e9c6e0122c7ccbe7
 1. Run the project:
     1. Right-click the parent project folder.
     Eclipse puts all of the Maven project folders at the same level, so be sure to select the correct one. For example, if you used `my-first-system` as the Maven artifact ID, right-click `my-first-system`.
@@ -56,10 +38,6 @@ The console should report that the services started. Verify that the services ar
     http://localhost:9000/api/hello/World
     ```
 The request returns the message `Hello, World!`.
-<<<<<<< HEAD
->>>>>>> a1474a71477d58cf6892b18c9947faadb5d81b21
-=======
->>>>>>> 714a93e638c2790c603dc880e9c6e0122c7ccbe7
 
 
 

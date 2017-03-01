@@ -1,16 +1,5 @@
 LagomBuild:Defining a Lagom build
 MultipleBuilds:Splitting a system into multiple builds
-<<<<<<< HEAD
-<<<<<<< HEAD
-IntellijSbt:Import an sbt project into Intellij;next=TestingServices
-EclipseSbt:Import an sbt project into Eclipse;next=TestingServices
-=======
 IntellijSbt:Importing an sbt project into Intellij;next=RunningServices,TestingServices
 EclipseSbt:Importing an sbt project into Eclipse;next=RunningServices,TestingServices
 JVMMemoryOnDev:Increase Memory in sbt
->>>>>>> a1474a71477d58cf6892b18c9947faadb5d81b21
-=======
-IntellijSbt:Importing an sbt project into Intellij;next=RunningServices,TestingServices
-EclipseSbt:Importing an sbt project into Eclipse;next=RunningServices,TestingServices
-JVMMemoryOnDev:Increase Memory in sbt
->>>>>>> 714a93e638c2790c603dc880e9c6e0122c7ccbe7
