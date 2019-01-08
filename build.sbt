@@ -40,7 +40,7 @@ def common: Seq[Setting[_]] = releaseSettings ++ bintraySettings ++ evictionSett
   homepage := Some(url("https://www.lagomframework.com/")),
   sonatypeProfileName := "com.lightbend",
   headerLicense := Some(HeaderLicense.Custom(
-    "Copyright (C) 2016-2018 Lightbend Inc. <https://www.lightbend.com>"
+    "Copyright (C) 2016-2019 Lightbend Inc. <https://www.lightbend.com>"
   )),
 
   pomExtra := {
@@ -1220,8 +1220,8 @@ def scriptedSettings: Seq[Setting[_]] = ScriptedPlugin.scriptedSettings ++
   Seq(
     scripted := scripted.tag(Tags.Test).evaluated,
     scriptedLaunchOpts ++= Seq(
-      "-Xmx768m",
-      "-XX:MaxMetaspaceSize=384m",
+      "-Xmx512m",
+      "-XX:MaxMetaspaceSize=512m",
       "-Dscala.version=" + sys.props.get("scripted.scala.version").getOrElse((scalaVersion in `reloadable-server`).value)
     )
   )

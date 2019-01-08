@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2016-2018 Lightbend Inc. <https://www.lightbend.com>
+ * Copyright (C) 2016-2019 Lightbend Inc. <https://www.lightbend.com>
  */
 
 package com.lightbend.lagom.sbt
@@ -387,7 +387,7 @@ object LagomPlugin extends AutoPlugin with LagomPluginCompat {
     .settings(IvyPlugin.projectSettings: _*)
     .settings(JvmPlugin.projectSettings: _*)
     .settings(
-      scalaVersion := "2.12.6",
+      scalaVersion := "2.12.8",
       libraryDependencies += LagomImport.component("lagom-service-locator"),
       lagomServiceLocatorStart in ThisBuild := startServiceLocatorTask.value,
       lagomServiceLocatorStop in ThisBuild := Servers.ServiceLocator.tryStop(new SbtLoggerProxy(state.value.log))
@@ -399,7 +399,7 @@ object LagomPlugin extends AutoPlugin with LagomPluginCompat {
     .settings(IvyPlugin.projectSettings: _*)
     .settings(JvmPlugin.projectSettings: _*)
     .settings(
-      scalaVersion := "2.12.6",
+      scalaVersion := "2.12.8",
       libraryDependencies += LagomImport.component("lagom-cassandra-server"),
       lagomCassandraStart in ThisBuild := startCassandraServerTask.value,
       lagomCassandraStop in ThisBuild := Servers.CassandraServer.tryStop(new SbtLoggerProxy(state.value.log))
@@ -411,7 +411,7 @@ object LagomPlugin extends AutoPlugin with LagomPluginCompat {
     .settings(IvyPlugin.projectSettings: _*)
     .settings(JvmPlugin.projectSettings: _*)
     .settings(
-      scalaVersion := "2.12.6",
+      scalaVersion := "2.12.8",
       libraryDependencies += LagomImport.component("lagom-kafka-server"),
       lagomKafkaStart in ThisBuild := startKafkaServerTask.value,
       lagomKafkaStop in ThisBuild := Servers.KafkaServer.tryStop(new SbtLoggerProxy(state.value.log))
